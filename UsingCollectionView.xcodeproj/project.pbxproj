@@ -13,6 +13,9 @@
 		DC9472ED27D90732004EE1DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9472EB27D90732004EE1DC /* Main.storyboard */; };
 		DC9472EF27D90733004EE1DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9472EE27D90733004EE1DC /* Assets.xcassets */; };
 		DC9472F227D90733004EE1DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9472F027D90733004EE1DC /* LaunchScreen.storyboard */; };
+		DC9472FA27D9091F004EE1DC /* Filmler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9472F927D9091F004EE1DC /* Filmler.swift */; };
+		DC9472FC27D90CC1004EE1DC /* FilmsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9472FB27D90CC1004EE1DC /* FilmsCollectionViewCell.swift */; };
+		DC9472FE27D91B2D004EE1DC /* detayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9472FD27D91B2D004EE1DC /* detayVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		DC9472EE27D90733004EE1DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC9472F127D90733004EE1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC9472F327D90733004EE1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC9472F927D9091F004EE1DC /* Filmler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filmler.swift; sourceTree = "<group>"; };
+		DC9472FB27D90CC1004EE1DC /* FilmsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsCollectionViewCell.swift; sourceTree = "<group>"; };
+		DC9472FD27D91B2D004EE1DC /* detayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detayVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +66,10 @@
 				DC9472E727D90732004EE1DC /* SceneDelegate.swift */,
 				DC9472E927D90732004EE1DC /* ViewController.swift */,
 				DC9472EB27D90732004EE1DC /* Main.storyboard */,
+				DC9472FD27D91B2D004EE1DC /* detayVC.swift */,
+				DC9472FB27D90CC1004EE1DC /* FilmsCollectionViewCell.swift */,
 				DC9472EE27D90733004EE1DC /* Assets.xcassets */,
+				DC9472F927D9091F004EE1DC /* Filmler.swift */,
 				DC9472F027D90733004EE1DC /* LaunchScreen.storyboard */,
 				DC9472F327D90733004EE1DC /* Info.plist */,
 			);
@@ -139,7 +148,10 @@
 			files = (
 				DC9472EA27D90732004EE1DC /* ViewController.swift in Sources */,
 				DC9472E627D90732004EE1DC /* AppDelegate.swift in Sources */,
+				DC9472FC27D90CC1004EE1DC /* FilmsCollectionViewCell.swift in Sources */,
 				DC9472E827D90732004EE1DC /* SceneDelegate.swift in Sources */,
+				DC9472FE27D91B2D004EE1DC /* detayVC.swift in Sources */,
+				DC9472FA27D9091F004EE1DC /* Filmler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

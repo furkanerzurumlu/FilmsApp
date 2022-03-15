@@ -8,22 +8,32 @@
 import UIKit
 
 class detayVC: UIViewController {
-
+    
+    @IBOutlet weak var filmNameLabel: UILabel!
+    @IBOutlet weak var filmPrice: UILabel!
+    @IBOutlet weak var filmImageView: UIImageView!
+    @IBOutlet weak var filmYonetmenLabel: UILabel!
+    
+    var film:Filmler?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        if let f = film {
+            filmNameLabel.text = f.filmName
+            filmYonetmenLabel.text = f.filmYonetmen
+            filmImageView.image = UIImage(named: f.filmImageName!)
+            filmPrice.text = "\(f.filmPrice!)"
+            
+        }
+       
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func addButton(_ sender: Any) {
+        if let f = film{
+            print("\(f.filmName!) \(String(describing: f.filmPrice)) ₺ fiyatla sepete eklendi")
+        }
     }
-    */
+    
 
 }
